@@ -1,0 +1,165 @@
+body {
+    margin: auto;
+    background-color: #024733;
+    background-image: url('../../img/burlap.jpg');
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+#logoutBTN {
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent url('../../img/Logout_btn.png') no-repeat center;
+    text-indent: -1000em;
+    cursor: pointer;
+}
+
+#exportButton {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 150px;
+    height: 40px;
+    background-color: #FF9900;
+    font-size: large;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+
+#instructionsButton {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 90px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+
+
+#orientationButton {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 90px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#searchBTN {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 80px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#showAllBTN {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 80px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#StartDateBtn {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 80px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#EndDateBtn {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 80px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#addNewBtn {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 80px;
+    height: 30px;
+    background-color: #FF9900;
+    font-size: medium;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#deleteGuestData {
+    top: -5px;
+    padding: 0px;
+    border-color: #FF9900;
+    color: #FFF;
+    width: 160px;
+    height: 40px;
+    background-color: #FF9900;
+    font-size: large;
+    border-top-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    border-top-right-radius: 15px 15px;
+    border-bottom-left-radius: 15px 15px;
+}
+
+#bg {
+    position:relative;
+    bottom:-40px;
+    background-position:bottom;   
+    background-image: url('../../img/footerbgtree.png');
+    background-repeat: repeat-x;
+}

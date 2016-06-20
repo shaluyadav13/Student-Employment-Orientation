@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modules>
+  <module title="Introduction">
+    <question>
+      <text>What is important to you? Listed are experiences one can have while being a student employee on campus. Read through the experiences and then place them in the order of your personal preference of importance to you by dragging them up or down in the list. There is no right or wrong answer, just your preference. Receive 8 points for your list.</text>
+      <options>
+        <option correct="0">Network with faculty, staff and students</option>
+        <option correct="1">Work in a professional environment</option>
+        <option correct="2">Link into the campus community</option>
+        <option correct="3">Work in an environment that promotes academic success</option>
+        <option correct="4">Remain on campus to work</option>
+        <option correct="5">Enhance time management skills</option>
+        <option correct="6">Feel responsible and valued</option>
+        <option correct="7">Gain experience and training that will enhance future</option>
+      </options>
+    </question>
+  </module>
+  <module title="Federal Work Study">
+    <question>
+      <text>Federal Work Study funds are available:</text>
+      <options>
+        <option correct="0">A. As a direct payment to a student’s account at the beginning of the trimester</option>
+        <option correct="1">B. In the form of a paycheck once employment is secured and wages are earned</option>
+        <option correct="0">C. Regardless if a student secures employment</option>
+      </options>
+    </question>
+    <question>
+      <text>To determine if a student is eligible for Federal Work Study, a student must complete:</text>
+      <options>
+        <option correct="1">A. A Free Application for Federal Student Aid (FAFSA)</option>
+        <option correct="0">B. An I-9 employment authorization form</option>
+        <option correct="0">C. A FERPA Statement</option>
+      </options>
+    </question>
+    <question>
+      <text>Continuing student employees are awarded federal work study by reapplying for Financial Assistance on an annual basis.</text>
+      <options>
+        <option correct="1">A. True</option>
+        <option correct="0">B. False</option>
+      </options>
+    </question>
+    <question>
+      <text>If a student has a question about Federal Work Study eligibility they should:</text>
+      <options>
+        <option correct="1">A. Contact the Office of Financial Assistance</option>
+        <option correct="0">B. Contact the Payroll Office</option>
+        <option correct="0">C. Contact the Office of Human Resources</option>
+      </options>
+    </question>
+  </module>
+  <module title="Policies and Procedures">
+    <question>
+      <text>A student’s enrollment status determines their eligibility to work in the Student Employment Program.  To be eligible to work in the Student Employment Program a student:</text>
+      <options>
+        <option>A. Must be enrolled in 3 credit hours during the trimester of employment</option>
+        <option>B. Does not need to be enrolled in any credit hours as long as they have completed a total of 60 credit hours towards their degree</option>
+        <option correct="1">C. Must be enrolled in 6 credit hours during the trimester of employment</option>
+        <option >D. The supervisor and student employee agree upon a set schedule of work hours.</option>
+      </options>
+    </question>
+    <question>
+      <text>In order to be eligible for employment during the University intersessions a student:</text>
+      <options>
+        <option>A. Must be registered for a minimum of 12 credit hours for the next trimester</option>
+        <option correct="1">B. Must be registered for a minimum of 6 credit hours for the next trimester</option>
+        <option>C. Must have completed one trimester of coursework</option>
+        <option>D. There are no requirements, since it is a University break</option>
+      </options>
+    </question>
+    <question>
+      <text>What is the maximum number of hours per week a Northwest student employee is allowed to work?</text>
+      <options>
+        <option>A. A maximum of 20 hours when enrolled in classes</option>
+        <option>B. A maximum of 40 hours when enrolled in classes</option>
+        <option>C. A maximum of 20 hours regardless of enrollment</option>
+        <option>D. A maximum of 40 hours during official University breaks </option>
+        <option correct="1">E. Answer A and D are correct</option>
+        <option>F. There is no limit</option>
+      </options>
+    </question>
+    <question>
+      <text>A student employee is allowed to work a maximum of 20 hours a week during the summer trimester sessions they are enrolled and a maximum of 40 hours a week during the summer trimester sessions they are not enrolled if:</text>
+      <options>
+        <option>A. They have been enrolled in the previous spring trimester</option>
+        <option correct="1">B. They have been enrolled in six credit hours in any session of the summer trimester</option>
+        <option>C. If they are pre-enrolled in the next fall trimester</option>
+        <option>D. There are no requirements to work during the summer trimester</option>
+      </options>
+    </question>
+    <question>
+      <text>A student employee may work more than one position in the Student Employment Program.  When a student holds more than one position they may work:</text>
+      <options>
+        <option correct="1">A. A maximum of 20 hours a week regardless of the number of positions</option>
+        <option>B. A maximum of 20 hours a week for each position, not to exceed a total of 40 hours a week</option>
+        <option>C. A maximum of 30 hours a week regardless of the number of positions</option>
+        <option>D. There is no limit, as long as it does not affect their academics </option>
+      </options>
+    </question>
+    <question>
+      <text>A student employee is required to receive a meal break:</text>
+      <options>
+        <option>A. Everyday</option>
+        <option>B. When they are working over the noon hour</option>
+        <option>C. When they are scheduled for an increment of four hours or more</option>
+        <option correct="1">D. When they are scheduled for an increment of eight hours or more</option>
+      </options>
+    </question>
+    <question>
+      <text>Flexible scheduling is offered to student employees to accommodate their academic success.  Flexible scheduling allows:</text>
+      <options>
+        <option>A. Students employees to come and go to work as they please with no set schedules</option>
+        <option correct="1">B. Student employees to work around their class schedule</option>
+        <option>C. Student employees to be tardy or absent without prior notification</option>
+      </options>
+    </question>
+    <question>
+      <text>All student employees must:</text>
+      <options>
+        <option>A. Wear Northwest apparel while at work</option>
+        <option correct="1">B. Determine their department dress code by discussing appropriate dress with their supervisor</option>
+        <option>C. Follow the dress code established by the Office of Human Resources</option>
+        <option>D. Refrain from wearing business casual attire, after all you’re a student and you should be able to wear what you wore to class</option>
+      </options>
+    </question>
+    <question>
+      <text>A student employee is allowed to drive a University vehicle only when:</text>
+      <options>
+        <option>A. It is a requirement of their position and is indicated in the job description</option>
+        <option>B. The student employee has an appropriate and valid driver’s license for the vehicle being operated</option>
+        <option>C. The student employee needs to get to class in a timely manner</option>
+        <option>D. Conducting University business and driving within the city limits of Maryville or to official field study sites</option>
+        <option correct="1">E. Answers A, B and D are correct</option>
+        <option>F. Answers A and D are correct</option>
+      </options>
+    </question>
+  </module>
+  <module title="Worker's Compensation">
+    <question>
+      <text>
+        This activity starts with an unordered list of events/tasks that need to be done when a student employee gets injured on the job.
+        Drag to the column on the right, the event/tasks on the left to create a correctly order list.
+        Remember in the event of the need for immediate emergency care please call university police and they will call for an ambulance.
+      </text>
+      <options>
+        <option correct="2">Contact Human Resources</option>
+        <option correct="5">Fill out and submit Paper Work</option>
+        <option correct="1">Notify Supervisor</option>
+        <option correct="4">Schedule Medical Appointment through Human Resources</option>
+        <option correct="3">Contact Division of Workers Compensation</option>
+      </options>
+    </question>
+  </module>
+  <module title="Career Pathing">
+    <question>
+      <text>Students may register for the Career Pathing Program sessions by:</text>
+      <options>
+        <option correct="0">A. Filling out a form and submitting it to their supervisor</option>
+        <option correct="1">B. Completing on-line registration located on the Student Employment website</option>
+        <option correct="0">C. Completing on-line registration located on the Payroll Website</option>
+        <option correct="0">D. Contacting the presenter for the session</option>
+      </options>
+    </question>
+    <question>
+      <text>A student who participates in a Career Pathing session: (Check all that may apply.)</text>
+      <options>
+        <option correct="1">A. Records their time on their timesheet</option>
+        <option correct="0">B. May skip class to attend</option>
+        <option correct="1">C. May attend during regular work hours if prior approval is received from the supervisor</option>
+      </options>
+    </question>
+    <question>
+      <text>The Career Pathing Program wage rate advancement is applicable for:</text>
+      <options>
+        <option correct="0">A. All Northwest student employment positions</option>
+        <option correct="1">B. Those Northwest student employees who are paid in a standard hourly wage position</option>
+        <option correct="0">C. Those Northwest student employees who are paid a stipend or scholarship amount</option>
+        <option correct="0">D. None of the above</option>
+      </options>
+    </question>
+    <question>
+      <text>What is the Career Pathing Program?</text>
+      <options>
+        <option correct="0">A. An opportunity for pay advancement ($.25 per hour increase) annually</option>
+        <option correct="0">B. An opportunity to participate in structured personal and professional development opportunities while being paid</option>
+        <option correct="0">C. An opportunity that encourages continual feedback through annual performance-based evaluations</option>
+        <option correct="1">D. All of the above</option>
+      </options>
+    </question>
+  </module>
+
+  <module title="Safety">
+    <question>
+      <text>1. The best option in a hostile intruder event is to:</text>
+      <options>
+        <option correct="0">A.	Panic </option>
+        <option correct="0">B.	Yell</option>
+        <option correct="1">C.	Get out of the area </option>
+      </options>
+    </question>
+    <question>
+      <text>2. First responders on scene are there to primarily</text>
+      <options>
+        <option correct="1">A. Stop the intruder</option>
+        <option correct="0">B. Render First Aid</option>
+        <option correct="0">C. Assess the situation</option>
+      </options>
+    </question>
+    <question>
+      <text>3.	In a hostile intruder situation __________ are the most important aspect to consider</text>
+      <options>
+        <option correct="0">A. Others</option>
+        <option correct="1">B. You</option>
+        <option correct="0">C. Your Belongings </option>
+      </options>
+    </question>
+    <question>
+      <text>4.	In a hostile intruder event, once you are safe you should</text>
+      <options>
+        <option correct="1">A. Call the Police</option>
+        <option correct="0">B. Hide</option>
+        <option correct="0">C. Keep Moving</option>
+      </options>
+    </question>
+    <question>
+      <text>5.	If you ever find yourself in a hostile intruder event, what are the three things that you can do to make a difference</text>
+      <options>
+        <option correct="0">A. Panic, Scream, Yell</option>
+        <option correct="1">B. Run, Hide, Fight </option>
+        <option correct="0">C. Looks, Listen, Hide </option>
+      </options>
+    </question>
+  </module>
+  
+  <module title="Compinsation">
+    <question>
+      <text>To accurately record your hours, you need to select the appropriate position, title, department and pay period.  If your positioni or department is not listed correctly, what should you do?</text>
+      <options>
+        <option correct="0">A. Use the position /department that is listed</option>
+        <option correct="0">B. Call President Jasinski</option>
+        <option correct="1">C. Contact your supervisor</option>
+        <option correct="0">D. Wait until end of pay period</option>
+      </options>
+    </question>
+    <question>
+      <text>The timesheet status of 'In Progress' means</text>
+      <options>
+        <option correct="0">A. The time sheet has been approved by the supervisor</option>
+        <option correct="0">B. The time sheet has been successfully processed through Payroll</option>
+        <option correct="0">C. You have submitted your time sheet for approval</option>
+        <option correct="0">D. Your supervisor returned the time sheet to you to be corrected</option>
+        <option correct="0">E. You have not started your time sheet for the pay period</option>
+        <option correct="1">F. The time sheet is started but you have not submitted it for approval</option>
+        <option correct="0">G. You need to record the hours you have already entered, restart your time sheet and re-enter your hours because there is an error.</option>
+      </options>
+    </question>
+    <question>
+      <text>The timesheet status of 'Error' means</text>
+      <options>
+        <option correct="0">A. The time sheet has been approved by the supervisor</option>
+        <option correct="0">B. The time sheet has been successfully processed through Payroll</option>
+        <option correct="0">C. You have submitted your time sheet for approval</option>
+        <option correct="0">D. Your supervisor returned the time sheet to you to be corrected</option>
+        <option correct="0">E. You have not started your time sheet for the pay period</option>
+        <option correct="0">F. The time sheet is started but you have not submitted it for approval</option>
+        <option correct="1">G. You need to record the hours you have already entered, restart your time sheet and re-enter your hours because there is an error.</option>
+      </options>
+    </question>
+    <question>
+      <text>The timesheet status of 'Pending' means</text>
+      <options>
+        <option correct="0">A. The time sheet has been approved by the supervisor</option>
+        <option correct="0">B. The time sheet has been successfully processed through Payroll</option>
+        <option correct="1">C. You have submitted your time sheet for approval</option>
+        <option correct="0">D. Your supervisor returned the time sheet to you to be corrected</option>
+        <option correct="0">E. You have not started your time sheet for the pay period</option>
+        <option correct="0">F. The time sheet is started but you have not submitted it for approval</option>
+        <option correct="0">G. You need to record the hours you have already entered, restart your time sheet and re-enter your hours because there is an error.</option>
+      </options>
+    </question>
+
+    <question>
+      <text>The timesheet status of 'Returned for Correction' means</text>
+      <options>
+        <option correct="0">A. The time sheet has been approved by the supervisor</option>
+        <option correct="0">B. The time sheet has been successfully processed through Payroll</option>
+        <option correct="0">C. You have submitted your time sheet for approval</option>
+        <option correct="1">D. Your supervisor returned the time sheet to you to be corrected</option>
+        <option correct="0">E. You have not started your time sheet for the pay period</option>
+        <option correct="0">F. The time sheet is started but you have not submitted it for approval</option>
+        <option correct="0">G. You need to record the hours you have already entered, restart your time sheet and re-enter your hours because there is an error.</option>
+      </options>
+    </question>
+    <question>
+      <text>What is the submission deadline for your Web Time Entry time sheet to ensure you are paid timely and accurately.</text>
+      <options>
+        <option correct="0">A. 10th of each month</option>
+        <option correct="1">B. Midnight on the first business day after the end of pay period</option>
+        <option correct="0">C. Midnight on the first business day you worked after the end of the pay period</option>
+        <option correct="0">D. Midnight on the last day of the pay period</option>
+      </options>
+    </question>
+    <question>
+      <text>An error message will occur if you use the back button in the browser instead of the navigation buttons within Web Time Entry or if you click the navigation buttons multiple times. If your time sheet is in an error status or displays and error message, what should you do immediately?</text>
+      <options>
+        <option correct="0">A. Record or print hours already entered</option>
+        <option correct="0">B. Restart the time sheet</option>
+        <option correct="0">C. Re-enter hours</option>
+        <option correct="1">D. All of the above in the order above</option>
+      </options>
+    </question>
+    <question>
+      <text>What is the ideal time to enter my hours?</text>
+      <options>
+        <option correct="0">A. End of the pay period prior to submission</option>
+        <option correct="0">B. When I get my schedule prior to submission</option>
+        <option correct="0">C. Once a week</option>
+        <option correct="1">D. Immediately following my shift</option>
+      </options>
+    </question>
+    <question>
+      <text>Who do I contact if I have issues with my Web Time Entry time sheet?</text>
+      <options>
+        <option correct="1">A. Supervisor or Payroll</option>
+        <option correct="0">B. University Police</option>
+        <option correct="0">C. Post a message on Facebook</option>
+        <option correct="0">D. Nobody, the issues will be fixed automatically</option>
+      </options>
+    </question>
+    <question>
+      <text>I understand that I need to enter all hours worked for the entire pay period and preview my Web Time Entry time sheet for accuracy, checking for holiday and overlapping hours, before I click the 'Submit' button.</text>
+      <options>
+        <option correct="1">A. True</option>
+        <option correct="0">B. False</option>
+      </options>
+    </question>
+  </module>
+  <module title="Events">
+    <question>
+      <text>Place a checkmark in the box in front of types of events you will find in the Student Employment Calendar. (Check all that may apply.)</text>
+      <options>
+        <option correct ="0">Art Exhibits Events</option>
+        <option correct ="0">Campus sporting events</option>
+        <option correct ="1">Career Pathing Program Events</option>
+        <option correct ="0">Homecoming Activities Events</option>
+        <option correct ="0">Last day to drop a course</option>
+        <option correct ="0">Leadership Luncheons Events</option>
+        <option correct ="0">Performing Arts Events</option>
+        <option correct ="0">SAC Lunch Event</option>
+        <option correct ="1">Student Pay Day events</option>
+      </options>
+    </question>
+  </module>
+</modules>

@@ -1,0 +1,620 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34567B48-AA98-4913-B746-0A1DF239AAC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StudentOrientation</RootNamespace>
+    <AssemblyName>StudentOrientation</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>AllFilesInProjectFolder</FilesToIncludeForPublish>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cite.DomainAuthentication, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\Cite.DomainAuthentication.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControl">
+      <HintPath>..\..\..\..\FlashControl\FlashControl\FlashControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddSupervisor.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="bin\Cite.DomainAuthentication.dll" />
+    <Content Include="bin\FlashControl.dll" />
+    <Content Include="bin\StudentOrientation.dll" />
+    <Content Include="bin\StudentOrientation.pdb" />
+    <Content Include="Error.aspx" />
+    <Content Include="flash\AAdminMapCS5.swf" />
+    <Content Include="flash\admin buttonsCS5.swf" />
+    <Content Include="flash\admin buttonsCS5_new.swf" />
+    <Content Include="flash\AdminButtons.swf" />
+    <Content Include="flash\RunHideFight_small.flv" />
+    <Content Include="flash\SupervisorPage.swf" />
+    <Content Include="flash\BriefcaseFinal.swf" />
+    <Content Include="flash\BriefCaseFinalWithToolTips\BriefcaseFinal.swf" />
+    <Content Include="flash\Pacman.swf" />
+    <Content Include="flash\CareerPathing.flv" />
+    <Content Include="flash\Confidentiality.flv" />
+    <Content Include="flash\Ending.flv" />
+    <Content Include="flash\Events.flv" />
+    <Content Include="flash\FedWorkStudy.flv" />
+    <Content Include="flash\Fin_Assistance.flv" />
+    <Content Include="flash\Introduction.flv" />
+    <Content Include="flash\map.swf" />
+    <Content Include="flash\Offices.flv" />
+    <Content Include="flash\Payroll.flv" />
+    <Content Include="flash\Policies.flv" />
+    <Content Include="flash\StudentsTalkSE.flv" />
+    <Content Include="flash\SupervisorsTalkSE.flv" />
+    <Content Include="flash\Workers_comp.flv" />
+    <Content Include="flash\WorkHabits.flv" />
+    <Content Include="Global.asax" />
+    <Content Include="img\alarm.png" />
+    <Content Include="img\best_404_error_pages_17.jpg" />
+    <Content Include="img\black80.png" />
+    <Content Include="img\briefcase.png" />
+    <Content Include="img\BriefcaseIconClosed.png" />
+    <Content Include="img\burlap.jpg" />
+    <Content Include="img\CalenderIcon.jpg" />
+    <Content Include="img\clock.png" />
+    <Content Include="img\close.png" />
+    <Content Include="img\closehover.png" />
+    <Content Include="img\completed.png" />
+    <Content Include="img\contract.png" />
+    <Content Include="img\EditDept_btn.png" />
+    <Content Include="img\failed.png" />
+    <Content Include="img\firstAid.png" />
+    <Content Include="img\footerbg1.png" />
+    <Content Include="img\footerbgtree.png" />
+    <Content Include="img\handbook.png" />
+    <Content Include="img\inProgress.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\map.png" />
+    <Content Include="img\menuBg.png" />
+    <Content Include="img\modal.png" />
+    <Content Include="img\NWLogoWhite.png" />
+    <Content Include="img\orderScale.png" />
+    <Content Include="img\Paula.png" />
+    <Content Include="img\progress1.png" />
+    <Content Include="img\progress2.png" />
+    <Content Include="img\tabSlice.png" />
+    <Content Include="img\videoIcon.gif" />
+    <Content Include="js\Compensation.js" />
+    <Content Include="js\introduction.js" />
+    <Content Include="js\jquery-1.3.2.min.js" />
+    <Content Include="js\jquery-1.4.4.js" />
+    <Content Include="js\jquery-ui-1.8.10.js" />
+    <Content Include="js\jquery.datepick.js" />
+    <Content Include="js\jquery.flash.js" />
+    <Content Include="js\jquery.qtip-1.0.0-rc3.min.js" />
+    <Content Include="js\multipageActivity.js" />
+    <Content Include="js\multipleChoiceActivity.js" />
+    <Content Include="js\Orientation.js" />
+    <Content Include="js\workersComp.js" />
+    <Content Include="jwplayer\jwplayer.js" />
+    <Content Include="jwplayer\player.swf" />
+    <Content Include="Layout\CSS\jquery.datepick.css" />
+    <Content Include="Layout\CSS\Style.css" />
+    <Content Include="Layout\CSS\ui.datepick.css" />
+    <Content Include="Layout\CSS\login.css" />
+    <Content Include="lib\Cite.DomainAuthentication.dll" />
+    <Content Include="Logout.aspx" />
+    <Content Include="Layout\CSS\master.css" />
+    <Content Include="Layout\CSS\multipageActivity.css" />
+    <Content Include="Layout\CSS\orientation.css" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg-gloss-wave_25_orange_500x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_glass_20_555555_1x400.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_glass_40_0078a3_1x400.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_gloss-wave_25_333333_500x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_inset-soft_25_000000_1x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-bg_inset-soft_30_f58400_1x100.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-icons_a83300_256x240.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="Layout\CSS\ui-darkness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Layout\CSS\ui-darkness\jquery-ui-1.8.10.custom.css" />
+    <Content Include="img\lock.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="ModuleTypes\multipleChoiceScoredActivitySubmit.aspx" />
+    <Content Include="ModuleTypes\completableActivity.aspx" />
+    <Content Include="ModuleTypes\scoredActivitySubmit.aspx" />
+    <Content Include="obj\Debug\StudentOrientation.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\StudentOrientation.dll" />
+    <Content Include="obj\Debug\StudentOrientation.pdb" />
+    <Content Include="obj\Debug\TempPE\Database.designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="Orientation.aspx" />
+    <Content Include="Resources\questions.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Scores.aspx" />
+    <Content Include="ssa\meta.xml" />
+    <Content Include="ssa\Services.aspx" />
+    <Content Include="ssa\story.html" />
+    <Content Include="ssa\story.swf" />
+    <Content Include="ssa\story_content\5gUHr2c70pE_P_0_0_213_146_DX398_DY398.swf" />
+    <Content Include="ssa\story_content\5kba24vHSdK_P_0_58_213_135_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\5pMrejnymyR_P_0_31_213_162_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\5s40uxC7RhP_P_0_31_213_162_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\5sQgHXmjpsm_P_0_100_213_93_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\5wR6OA5l82J_P_0_33_213_98_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\5YDTBS6MuNt_P_0_100_213_93_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\62dqdAviX6W_P_0_0_213_127_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\67B1VKDPmFo_P_0_58_213_135_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\67wVqjFSOo9_DX1440_DY1440.jpg" />
+    <Content Include="ssa\story_content\6CH4dvri0G7_DX1440_DY1440.jpg" />
+    <Content Include="ssa\story_content\6GHqqKlWTV0_P_0_0_213_146_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6I5IZn5U9sG_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6JLKeSkcI5H_DX1280_DY1280.swf" />
+    <Content Include="ssa\story_content\6KEZedasWHP_P_0_89_213_104_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6KX7GUVZrVc_DX112_DY112.swf" />
+    <Content Include="ssa\story_content\6kYBVygYcn1_DX1440_DY1440.jpg" />
+    <Content Include="ssa\story_content\6M9SoFD0xzb_P_0_29_213_102_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6meas5BsXpn_P_0_0_213_127_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6nPqk86SxwO_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6Oqg45bS82s_P_0_89_213_104_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6q83Kwcy8LG_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6S6NdVobwbz_DX416_DY416.swf" />
+    <Content Include="ssa\story_content\6TO6AOwEtyu_DX420_DY420.swf" />
+    <Content Include="ssa\story_content\6Ucu4u80d1n_P_0_33_213_98_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6WEtEANPeEf_DX613_DY460_CX613_CY460.jpg" />
+    <Content Include="ssa\story_content\6YG7oNLYZ3H_P_0_29_213_102_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\6YW32bS45cB_DX400_DY400.swf" />
+    <Content Include="ssa\story_content\as2swfclient.swf" />
+    <Content Include="ssa\story_content\as2swfvideoclient.swf" />
+    <Content Include="ssa\story_content\blank.html" />
+    <Content Include="ssa\story_content\data.swf" />
+    <Content Include="ssa\story_content\FontFactory.swf" />
+    <Content Include="ssa\story_content\fonts.swf" />
+    <Content Include="ssa\story_content\frame.swf" />
+    <Content Include="ssa\story_content\frame.xml" />
+    <Content Include="ssa\story_content\hotspot_marker.swf" />
+    <Content Include="ssa\story_content\notes\Note5kWz65RgfS5.5VS2EOpbn2F.swf" />
+    <Content Include="ssa\story_content\notes\Note5kWz65RgfS5.5wVWoaIgcCQ.swf" />
+    <Content Include="ssa\story_content\notes\Note5kWz65RgfS5.5ZAEqBbj7RK.swf" />
+    <Content Include="ssa\story_content\notes\Note5kWz65RgfS5.6S34IY0Xuq7.swf" />
+    <Content Include="ssa\story_content\notes\Note5r2qqdXT0OG.697SmGmtO1D.swf" />
+    <Content Include="ssa\story_content\notes\Note5r2qqdXT0OG.6miHgnslHTz.swf" />
+    <Content Include="ssa\story_content\notes\Note5tkCrlJyQtJ.5gvDk50FdWC.swf" />
+    <Content Include="ssa\story_content\notes\Note5tkCrlJyQtJ.6l3iQyBMudH.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.5hEnVP0rBOE.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.5veQxEbwCxx.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.5VSj224IlXn.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.5wIHAk5irdj.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.6CV0xG0mT5O.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.6o8J9XFEDfL.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.6QFodrmU790.swf" />
+    <Content Include="ssa\story_content\notes\Note5tnvLIz8GuA.6WuDRFngeaf.swf" />
+    <Content Include="ssa\story_content\notes\Note6aiHlGqauuy.6CUTm5KmOQr.swf" />
+    <Content Include="ssa\story_content\notes\Note6dxZIPBDILX.5vMwTshbBOt.swf" />
+    <Content Include="ssa\story_content\notes\Note6dxZIPBDILX.6iegM98x4hI.swf" />
+    <Content Include="ssa\story_content\notes\Note6gdtuSybKxg.5pYmY1vsDmb.swf" />
+    <Content Include="ssa\story_content\notes\Note6gdtuSybKxg.605WZgUfFEB.swf" />
+    <Content Include="ssa\story_content\notes\Note6gdtuSybKxg.66d5mYRPMYe.swf" />
+    <Content Include="ssa\story_content\notes\Note6gdtuSybKxg.67B0lja7fnD.swf" />
+    <Content Include="ssa\story_content\notes\Note6gdtuSybKxg.6Jq8ppWYV9I.swf" />
+    <Content Include="ssa\story_content\notes\Note6gdtuSybKxg.6WMH8TEhLYd.swf" />
+    <Content Include="ssa\story_content\notes\Note6OOcqfiJPeo.5ZfZkPEWdqn.swf" />
+    <Content Include="ssa\story_content\notes\Note6qV1QvPRsTh.5aQblLymHzY.swf" />
+    <Content Include="ssa\story_content\notes\Note6qV1QvPRsTh.5osGDgqwfSW.swf" />
+    <Content Include="ssa\story_content\notes\Note6qV1QvPRsTh.5zHCvHS5d6L.swf" />
+    <Content Include="ssa\story_content\notes\Note6qV1QvPRsTh.64Bgznca2aU.swf" />
+    <Content Include="ssa\story_content\notes\Note6qV1QvPRsTh.6ZsAhs9oNnP.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.5bdiOHII35f.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.5nhWzIOnBKM.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.63qfgR1kF4s.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.63VBkKTt9Od.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.656gyvx9MkK.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6BhmP1BgsWQ.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6DNYSKzVhgG.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6GW1xKaVuSW.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6j6oD2YkN2t.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6KXuNXQ7iOF.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6mO0K480qYZ.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6Sh6RiuYC5h.swf" />
+    <Content Include="ssa\story_content\notes\Note6rklOz1Yo8F.6ZErQC1Pr6h.swf" />
+    <Content Include="ssa\story_content\notes\Note6TZYz9TmKjv.5yrlPyVYL3e.swf" />
+    <Content Include="ssa\story_content\notes\Note6TZYz9TmKjv.6CsVTO9VFTE.swf" />
+    <Content Include="ssa\story_content\notes\Note6TZYz9TmKjv.6IoQcBZWUbZ.swf" />
+    <Content Include="ssa\story_content\notes\Note6TZYz9TmKjv.6PjDuOKICT4.swf" />
+    <Content Include="ssa\story_content\notes\Note6YQniSL5MuR.5y126VB5Nfx.swf" />
+    <Content Include="ssa\story_content\Shape64CyyWEV3qc.swf" />
+    <Content Include="ssa\story_content\slides\5aQblLymHzY.swf" />
+    <Content Include="ssa\story_content\slides\5aVdHAogkHP.swf" />
+    <Content Include="ssa\story_content\slides\5bdiOHII35f.swf" />
+    <Content Include="ssa\story_content\slides\5dwYnUaeBJC.swf" />
+    <Content Include="ssa\story_content\slides\5gvDk50FdWC.swf" />
+    <Content Include="ssa\story_content\slides\5h8v4Jib4GR.swf" />
+    <Content Include="ssa\story_content\slides\5hEnVP0rBOE.swf" />
+    <Content Include="ssa\story_content\slides\5hqi57WCaNc.swf" />
+    <Content Include="ssa\story_content\slides\5iDV4VnPJQ0.swf" />
+    <Content Include="ssa\story_content\slides\5io3r8gZtxt.swf" />
+    <Content Include="ssa\story_content\slides\5ipWRaeecGN.swf" />
+    <Content Include="ssa\story_content\slides\5mzX561r2fy.swf" />
+    <Content Include="ssa\story_content\slides\5n0BdHD4ZiG.swf" />
+    <Content Include="ssa\story_content\slides\5nhWzIOnBKM.swf" />
+    <Content Include="ssa\story_content\slides\5nL0jrCl4kx.swf" />
+    <Content Include="ssa\story_content\slides\5osGDgqwfSW.swf" />
+    <Content Include="ssa\story_content\slides\5pYmY1vsDmb.swf" />
+    <Content Include="ssa\story_content\slides\5tfjufpmcD5.swf" />
+    <Content Include="ssa\story_content\slides\5uHOA83FnrR.swf" />
+    <Content Include="ssa\story_content\slides\5vdKsMjlO7h.swf" />
+    <Content Include="ssa\story_content\slides\5veQxEbwCxx.swf" />
+    <Content Include="ssa\story_content\slides\5vMwTshbBOt.swf" />
+    <Content Include="ssa\story_content\slides\5VS2EOpbn2F.swf" />
+    <Content Include="ssa\story_content\slides\5VSj224IlXn.swf" />
+    <Content Include="ssa\story_content\slides\5W5vjoHsk7r.swf" />
+    <Content Include="ssa\story_content\slides\5wIHAk5irdj.swf" />
+    <Content Include="ssa\story_content\slides\5WqxvqoKYlh.swf" />
+    <Content Include="ssa\story_content\slides\5wVWoaIgcCQ.swf" />
+    <Content Include="ssa\story_content\slides\5x45g7AxnSw.swf" />
+    <Content Include="ssa\story_content\slides\5y126VB5Nfx.swf" />
+    <Content Include="ssa\story_content\slides\5yI5LGN3Gha.swf" />
+    <Content Include="ssa\story_content\slides\5yrlPyVYL3e.swf" />
+    <Content Include="ssa\story_content\slides\5YsN869EAbJ.swf" />
+    <Content Include="ssa\story_content\slides\5ZAEqBbj7RK.swf" />
+    <Content Include="ssa\story_content\slides\5ZfZkPEWdqn.swf" />
+    <Content Include="ssa\story_content\slides\5zHCvHS5d6L.swf" />
+    <Content Include="ssa\story_content\slides\5ZPug9INolV.swf" />
+    <Content Include="ssa\story_content\slides\5ZxFlMOBCPc.swf" />
+    <Content Include="ssa\story_content\slides\5ZZb6zc7P5f.swf" />
+    <Content Include="ssa\story_content\slides\605WZgUfFEB.swf" />
+    <Content Include="ssa\story_content\slides\6179NTgzApf.swf" />
+    <Content Include="ssa\story_content\slides\62s9hH10hbr.swf" />
+    <Content Include="ssa\story_content\slides\63qfgR1kF4s.swf" />
+    <Content Include="ssa\story_content\slides\63VBkKTt9Od.swf" />
+    <Content Include="ssa\story_content\slides\64Bgznca2aU.swf" />
+    <Content Include="ssa\story_content\slides\656gyvx9MkK.swf" />
+    <Content Include="ssa\story_content\slides\66d5mYRPMYe.swf" />
+    <Content Include="ssa\story_content\slides\67B0lja7fnD.swf" />
+    <Content Include="ssa\story_content\slides\68LzCNQpgXL.swf" />
+    <Content Include="ssa\story_content\slides\697SmGmtO1D.swf" />
+    <Content Include="ssa\story_content\slides\69PJFPM27So.swf" />
+    <Content Include="ssa\story_content\slides\6a78DBbAU79.swf" />
+    <Content Include="ssa\story_content\slides\6aoc3xMd3ix.swf" />
+    <Content Include="ssa\story_content\slides\6ap1WZK2Pyv.swf" />
+    <Content Include="ssa\story_content\slides\6BhmP1BgsWQ.swf" />
+    <Content Include="ssa\story_content\slides\6CsVTO9VFTE.swf" />
+    <Content Include="ssa\story_content\slides\6CUTm5KmOQr.swf" />
+    <Content Include="ssa\story_content\slides\6CV0xG0mT5O.swf" />
+    <Content Include="ssa\story_content\slides\6dG06UIOg5t.swf" />
+    <Content Include="ssa\story_content\slides\6DMKsem2a7q.swf" />
+    <Content Include="ssa\story_content\slides\6DNYSKzVhgG.swf" />
+    <Content Include="ssa\story_content\slides\6E54Fn6BxyE.swf" />
+    <Content Include="ssa\story_content\slides\6GbkzG2FovF.swf" />
+    <Content Include="ssa\story_content\slides\6GBpKTkCGSl.swf" />
+    <Content Include="ssa\story_content\slides\6GdlCWoWZh2.swf" />
+    <Content Include="ssa\story_content\slides\6GW1xKaVuSW.swf" />
+    <Content Include="ssa\story_content\slides\6H0EX1PFv9v.swf" />
+    <Content Include="ssa\story_content\slides\6iCPj8Zay9n.swf" />
+    <Content Include="ssa\story_content\slides\6iegM98x4hI.swf" />
+    <Content Include="ssa\story_content\slides\6IoQcBZWUbZ.swf" />
+    <Content Include="ssa\story_content\slides\6iZVuDPT53q.swf" />
+    <Content Include="ssa\story_content\slides\6j6oD2YkN2t.swf" />
+    <Content Include="ssa\story_content\slides\6Jq8ppWYV9I.swf" />
+    <Content Include="ssa\story_content\slides\6JRI5UozK8X.swf" />
+    <Content Include="ssa\story_content\slides\6KXuNXQ7iOF.swf" />
+    <Content Include="ssa\story_content\slides\6l3iQyBMudH.swf" />
+    <Content Include="ssa\story_content\slides\6loIVbdiENW.swf" />
+    <Content Include="ssa\story_content\slides\6LOoigGiDRt.swf" />
+    <Content Include="ssa\story_content\slides\6miHgnslHTz.swf" />
+    <Content Include="ssa\story_content\slides\6mO0K480qYZ.swf" />
+    <Content Include="ssa\story_content\slides\6o6njMbNu2o.swf" />
+    <Content Include="ssa\story_content\slides\6o8J9XFEDfL.swf" />
+    <Content Include="ssa\story_content\slides\6OaALyJhbMe.swf" />
+    <Content Include="ssa\story_content\slides\6ObXTbarxim.swf" />
+    <Content Include="ssa\story_content\slides\6oh65Q1QFDi.swf" />
+    <Content Include="ssa\story_content\slides\6PjDuOKICT4.swf" />
+    <Content Include="ssa\story_content\slides\6QFodrmU790.swf" />
+    <Content Include="ssa\story_content\slides\6QLFNEo4XG1.swf" />
+    <Content Include="ssa\story_content\slides\6qORaxdL1xa.swf" />
+    <Content Include="ssa\story_content\slides\6RkU2NuDmhy.swf" />
+    <Content Include="ssa\story_content\slides\6Rp8PLqDggf.swf" />
+    <Content Include="ssa\story_content\slides\6S34IY0Xuq7.swf" />
+    <Content Include="ssa\story_content\slides\6Sh6RiuYC5h.swf" />
+    <Content Include="ssa\story_content\slides\6T5K7yisjeR.swf" />
+    <Content Include="ssa\story_content\slides\6TXa8RM50ES.swf" />
+    <Content Include="ssa\story_content\slides\6U3cwRQhkMZ.swf" />
+    <Content Include="ssa\story_content\slides\6UubF6LBTi0.swf" />
+    <Content Include="ssa\story_content\slides\6UVpMB6ayKW.swf" />
+    <Content Include="ssa\story_content\slides\6WhV38ToGv8.swf" />
+    <Content Include="ssa\story_content\slides\6WMH8TEhLYd.swf" />
+    <Content Include="ssa\story_content\slides\6WuDRFngeaf.swf" />
+    <Content Include="ssa\story_content\slides\6ZdSQyXEeTY.swf" />
+    <Content Include="ssa\story_content\slides\6ZErQC1Pr6h.swf" />
+    <Content Include="ssa\story_content\slides\6ZsAhs9oNnP.swf" />
+    <Content Include="ssa\story_content\slides\6Zt0LE7ruDj.swf" />
+    <Content Include="ssa\story_content\slides\6Zxpkf9IdnQ.swf" />
+    <Content Include="ssa\story_content\story.js" />
+    <Content Include="ssa\story_content\thumbnail.jpg" />
+    <Content Include="ssa\story_content\user.js" />
+    <Content Include="ssa\story_content\video_5jasR9QlySD_19_48_558x312.mp4" />
+    <Content Include="ssa\story_content\video_5nkmz6l5W8N_19_48_598x336.mp4" />
+    <Content Include="ssa\story_content\video_5vUxjjRGkKL_19_48_592x332.mp4" />
+    <Content Include="ssa\story_content\video_5X6y4ABKwnl_19_48.swf" />
+    <Content Include="ssa\story_content\video_61CHjPIULv5_19_48_560x316.mp4" />
+    <Content Include="ssa\story_content\video_64av4ovrjIB_19_48.swf" />
+    <Content Include="ssa\story_content\video_65963vjSX1V_19_48_560x316.mp4" />
+    <Content Include="ssa\story_content\video_6D1vLvjZn0q_19_48_560x316.mp4" />
+    <Content Include="ssa\story_content\video_6F4RemiAJOB_19_48_560x316.mp4" />
+    <Content Include="ssa\story_content\video_6JfWMWFBmHb_19_48_558x312.mp4" />
+    <Content Include="ssa\story_content\video_6jjSmdIOYQU_19_48_598x336.mp4" />
+    <Content Include="ssa\story_content\video_6QBRAh9olqI_19_48_560x316.mp4" />
+    <Content Include="ssa\story_content\video_6R6NT3Onegd_19_48_560x316.mp4" />
+    <Content Include="ssa\story_content\video_6RYc7NoaBMm_19_48_604x340.mp4" />
+    <Content Include="ssa\story_content\zoomIcon.png" />
+    <Content Include="Supervisor.aspx" />
+    <None Include="flash\BriefCaseFinalWithToolTips\BriefcaseFinal.fla" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\AuxFunctions.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\ColorMatrix.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\Equations.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\PropertyInfoObj.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\SpecialPropertiesDefault.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\SpecialProperty.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\SpecialPropertyModifier.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\SpecialPropertySplitter.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\Tweener.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\caurina\transitions\TweenListObj.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\classes\Tooltip.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\org\FlepStudio\ToolTip.as" />
+    <None Include="flash\BriefCaseFinalWithToolTips\textLayout_2.0.0.232.swz" />
+    <None Include="flash\BriefCaseFinalWithToolTips\TooltipClass.as" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\StudentOrientation.csproj.GenerateResource.Cache" />
+    <Content Include="obj\Debug\StudentOrientation.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="TestPage.aspx" />
+    <Content Include="WebService.asmx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddSupervisor.aspx.cs">
+      <DependentUpon>AddSupervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSupervisor.aspx.designer.cs">
+      <DependentUpon>AddSupervisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs">
+      <DependentUpon>Database.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Database.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\ActivityModule.cs" />
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleTypes\multipleChoiceScoredActivitySubmit.aspx.cs">
+      <DependentUpon>multipleChoiceScoredActivitySubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuleTypes\multipleChoiceScoredActivitySubmit.aspx.designer.cs">
+      <DependentUpon>multipleChoiceScoredActivitySubmit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleTypes\completableActivity.aspx.cs">
+      <DependentUpon>completableActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuleTypes\completableActivity.aspx.designer.cs">
+      <DependentUpon>completableActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModuleTypes\scoredActivitySubmit.aspx.cs">
+      <DependentUpon>scoredActivitySubmit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModuleTypes\scoredActivitySubmit.aspx.designer.cs">
+      <DependentUpon>scoredActivitySubmit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Orientation.aspx.cs">
+      <DependentUpon>Orientation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Orientation.aspx.designer.cs">
+      <DependentUpon>Orientation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Code\Question.cs" />
+    <Compile Include="Code\XMLDataSource.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Scores.aspx.cs">
+      <DependentUpon>Scores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scores.aspx.designer.cs">
+      <DependentUpon>Scores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ssa\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor.aspx.cs">
+      <DependentUpon>Supervisor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Supervisor.aspx.designer.cs">
+      <DependentUpon>Supervisor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TestPage.aspx.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TestPage.aspx.designer.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService.asmx.cs">
+      <DependentUpon>WebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Database.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="jwplayer\skins\glow.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database.dbml.layout">
+      <DependentUpon>Database.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="obj\Debug\StudentOrientation.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>8080</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,26 @@
+﻿html
+{
+    background:-moz-linear-gradient(270deg, #002499, #3262ff) no-repeat;
+    background:-webkit-gradient(linear, left top, left bottom, from(#002499), to(#3262ff));
+    height:100%;
+}
+
+input,
+input[type="password"],
+input[type="search"]
+{
+    border:2px inset;
+       
+}
+
+#login
+{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-235px;
+    margin-top:-180px;
+    width:470px;
+    height:360px;
+    background: white;
+}

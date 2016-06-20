@@ -1,0 +1,47 @@
+﻿body
+{
+    margin: auto;
+    background-color: #024733;
+    background-image: url('../../img/burlap.jpg');
+    background-repeat: repeat-x;
+    font-family: sans-serif;
+    color: #FFF;
+}
+#loginButton
+{
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent url('../../img/Login_btn.png') no-repeat center;
+    text-indent: -1000em;
+    cursor:pointer; 
+}
+#bg
+{
+    background-position: bottom;
+    background-image: url('../../img/footerbgtree.png');
+    background-repeat: repeat-x;
+    bottom: auto;
+    width: 100%;
+    height: 600px;
+}
+#page
+{
+    position: static;
+    width: 960px;
+    z-index: 0;
+}
+
+#guestButton
+{
+    width: 100px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent url('../../img/Guest_btn.png') no-repeat center;
+    text-indent: -1000em;
+    cursor:pointer; 
+}

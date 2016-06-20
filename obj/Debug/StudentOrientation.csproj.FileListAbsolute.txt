@@ -1,0 +1,28 @@
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\bin\StudentOrientation.dll
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\bin\StudentOrientation.pdb
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\bin\Cite.DomainAuthentication.dll
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\obj\Debug\StudentOrientation.csprojResolveAssemblyReference.cache
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\obj\Debug\StudentOrientation.Properties.Resources.resources
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\obj\Debug\StudentOrientation.csproj.GenerateResource.Cache
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\obj\Debug\StudentOrientation.dll
+C:\Users\s521980\Desktop\SE\StudentEmploymentOrientation_OriginalVersionCite1\obj\Debug\StudentOrientation.pdb
+C:\Users\s521980\Desktop\SE\Modified SE_Version 2\bin\StudentOrientation.dll
+C:\Users\s521980\Desktop\SE\Modified SE_Version 2\bin\StudentOrientation.pdb
+C:\Users\s521980\Desktop\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.Properties.Resources.resources
+C:\Users\s521980\Desktop\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.csproj.GenerateResource.Cache
+C:\Users\s521980\Desktop\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.dll
+C:\Users\s521980\Desktop\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.pdb
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\bin\StudentOrientation.dll
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\bin\StudentOrientation.pdb
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.Properties.Resources.resources
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.csproj.GenerateResource.Cache
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.dll
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.pdb
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\obj\Debug\StudentOrientation.csprojResolveAssemblyReference.cache
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\bin\StudentOrientation.dll
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\bin\StudentOrientation.pdb
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\obj\Debug\StudentOrientation.csprojResolveAssemblyReference.cache
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\obj\Debug\StudentOrientation.Properties.Resources.resources
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\obj\Debug\StudentOrientation.csproj.GenerateResource.Cache
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\obj\Debug\StudentOrientation.dll
+C:\Users\s521980\Desktop\KumarPrem_CiteFile\Cite Projects\SE\Modified SE_Version 2\SE_Orientation_Updated\obj\Debug\StudentOrientation.pdb

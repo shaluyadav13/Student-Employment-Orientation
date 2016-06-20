@@ -1,0 +1,15 @@
+.hiddenPage {
+	visibility: hidden;
+	display: none;
+}
+
+.visiblePage {
+	visibility: visible;
+	display: inline;
+}
+
+.video 
+{
+    margin-top: 25px;
+    margin-left: 40px;
+}

@@ -1,0 +1,46 @@
+﻿#sortable { list-style-type: none; margin: 0; padding: 0;}
+#sortable li { 
+	margin: 0 3px 3px 0px;
+	padding: 0.4em;
+	padding-left: 1.4em; 
+	font-size: 1em; 
+	cursor: pointer; 
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#sortable li span { 
+	position: absolute; 
+	margin-left: -1.3em; 
+}	
+
+.ui-state-highlight { 
+	border:1px solid #ff7f00;
+	height: 1.5em; 
+	line-height: 1.2em;
+	background-color: #f9bc65;
+	-moz-border-radius: 15px;
+	
+}
+.loading{
+
+}
+.helpText{
+	color: #FFF;
+	font-size: 1.4em;
+	margin: 0.5em
+}
+#boundBox{
+    margin:0;
+    padding:2em;
+}
+#scale
+{
+    width:44px;
+    height:100%;
+    font-size:0.6em;
+}
+#scale img
+{
+    height: 350px;
+    width:25px;
+}
